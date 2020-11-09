@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Implementacao\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Estudos.Dominio\Estudos.Dominio.csproj" />
+    <ProjectReference Include="..\Estudos.Infraestrutura\Estudos.Infraestrutura.csproj" />
+  </ItemGroup>
+
+</Project>

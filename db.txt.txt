@@ -1,0 +1,55 @@
+
+
+
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=SQL*&123sql" `
+   --name "sqlserver" -p 1433:1433 `
+   -v sql1data:/var/opt/mssql `
+   -d microsoft/mssql-server-linux:2017-latest
+
+
+
+
+CREATE TABLE Category (
+    Id int not null identity(1, 1),
+    Title varchar(60) not null,
+    
+    CONSTRAINT pk_category PRIMARY KEY CLUSTERED (
+        Id ASC
+    ) WITH ( 
+        PAD_INDEX = OFF, 
+        STATISTICS_NORECOMPUTE = OFF, 
+        IGNORE_DUP_KEY = OFF, 
+        ALLOW_ROW_LOCKS = ON, 
+        ALLOW_PAGE_LOCKS = ON, 
+        FILLFACTOR = 90
+    
+    ) ON [PRIMARY]
+     
+)
+
+CREATE TABLE Product (
+    Id int not null identity(1, 1),
+    Title varchar(60) not null,
+    Description varchar(60) not null,
+    Price float not null,
+    Quantity int not null,
+    CategoryId int not null,
+    CreateDate date not null,
+    UpdateDate date not null,
+
+    CONSTRAINT pk_product PRIMARY KEY CLUSTERED (
+        Id ASC
+    ) WITH ( 
+        PAD_INDEX = OFF, 
+        STATISTICS_NORECOMPUTE = OFF, 
+        IGNORE_DUP_KEY = OFF, 
+        ALLOW_ROW_LOCKS = ON, 
+        ALLOW_PAGE_LOCKS = ON, 
+        FILLFACTOR = 90
+    
+    ) ON [PRIMARY]   
+)
+
+ALTER TABLE Product WITH CHECK ADD CONSTRAINT fk_product_category FOREIGN KEY (CategoryId) REFERENCES Category (Id)
+
+ALTER TABLE Product CHECK CONSTRAINT fk_product_category

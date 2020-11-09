@@ -1,0 +1,8 @@
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Infraestrutura\bin\Debug\netcoreapp3.1\Estudos.Infraestrutura.deps.json
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Infraestrutura\bin\Debug\netcoreapp3.1\Estudos.Infraestrutura.dll
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Infraestrutura\bin\Debug\netcoreapp3.1\Estudos.Infraestrutura.pdb
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Infraestrutura\obj\Debug\netcoreapp3.1\Estudos.Infraestrutura.AssemblyInfoInputs.cache
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Infraestrutura\obj\Debug\netcoreapp3.1\Estudos.Infraestrutura.AssemblyInfo.cs
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Infraestrutura\obj\Debug\netcoreapp3.1\Estudos.Infraestrutura.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Infraestrutura\obj\Debug\netcoreapp3.1\Estudos.Infraestrutura.dll
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Infraestrutura\obj\Debug\netcoreapp3.1\Estudos.Infraestrutura.pdb

@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Estudos.Aplicacao/1.0.0": {
+        "dependencies": {
+          "Estudos.Dominio": "1.0.0",
+          "Estudos.Infraestrutura": "1.0.0"
+        },
+        "runtime": {
+          "Estudos.Aplicacao.dll": {}
+        }
+      },
+      "Estudos.Dominio/1.0.0": {
+        "runtime": {
+          "Estudos.Dominio.dll": {}
+        }
+      },
+      "Estudos.Infraestrutura/1.0.0": {
+        "runtime": {
+          "Estudos.Infraestrutura.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Estudos.Aplicacao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Estudos.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Estudos.Infraestrutura/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

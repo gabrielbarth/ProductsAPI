@@ -1,0 +1,14 @@
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\bin\Debug\netcoreapp3.1\Estudos.Aplicacao.deps.json
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\bin\Debug\netcoreapp3.1\Estudos.Aplicacao.dll
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\bin\Debug\netcoreapp3.1\Estudos.Aplicacao.pdb
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\bin\Debug\netcoreapp3.1\Estudos.Dominio.dll
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\bin\Debug\netcoreapp3.1\Estudos.Infraestrutura.dll
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\bin\Debug\netcoreapp3.1\Estudos.Dominio.pdb
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\bin\Debug\netcoreapp3.1\Estudos.Infraestrutura.pdb
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\obj\Debug\netcoreapp3.1\Estudos.Aplicacao.csprojAssemblyReference.cache
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\obj\Debug\netcoreapp3.1\Estudos.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\obj\Debug\netcoreapp3.1\Estudos.Aplicacao.AssemblyInfo.cs
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\obj\Debug\netcoreapp3.1\Estudos.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\obj\Debug\netcoreapp3.1\Estudos.Aplicacao.csproj.CopyComplete
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\obj\Debug\netcoreapp3.1\Estudos.Aplicacao.dll
+C:\Users\Gabriel\source\repos\WebApplication\Estudos.Aplicacao\obj\Debug\netcoreapp3.1\Estudos.Aplicacao.pdb

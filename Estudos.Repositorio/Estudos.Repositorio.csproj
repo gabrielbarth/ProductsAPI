@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentNHibernate" Version="3.0.1" />
+    <PackageReference Include="NHibernate" Version="5.3.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Estudos.Dominio\Estudos.Dominio.csproj" />
+    <ProjectReference Include="..\Estudos.Infraestrutura\Estudos.Infraestrutura.csproj" />
+  </ItemGroup>
+
+</Project>

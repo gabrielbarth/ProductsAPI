@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.2.0" />
+    <PackageReference Include="SimpleInjector" Version="5.1.0" />
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc.Core" Version="5.0.0" />
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc.ViewFeatures" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Estudos.Aplicacao\Estudos.Aplicacao.csproj" />
+    <ProjectReference Include="..\Estudos.Dominio\Estudos.Dominio.csproj" />
+    <ProjectReference Include="..\Estudos.Infraestrutura\Estudos.Infraestrutura.csproj" />
+    <ProjectReference Include="..\Estudos.Repositorio\Estudos.Repositorio.csproj" />
+  </ItemGroup>
+
+</Project>
